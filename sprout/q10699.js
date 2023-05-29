@@ -22,3 +22,6 @@ const: 상수 선언 키워드
 mdn 참고
 https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Date/toISOString
 */
+
+const data = new Date().toISOString().split("T");
+console.log(data[0]);
